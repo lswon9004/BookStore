@@ -9,7 +9,7 @@
 ${start}
 <c:forEach items="${blist}" var="dept">
 	${ dept.bookid} / ${dept.bookname } / ${dept.publisher}/ ${dept.price} 
-	<br>
+	<br> 
 </c:forEach>
 </body>
 </html>
